@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import PeopleCard from './PeopleCard';
+import PlayerCard from './PlayerCard';
 
 class MainArea extends Component {
     constructor(props) {
@@ -48,7 +48,7 @@ class MainArea extends Component {
         let playerCards = this.state.player.map(player => {
             return (
                 <Col sm="4">
-                    <PeopleCard removePlayer={this.removePlayer.bind(this)}player={player}/>
+                    <PlayerCard key={player.id} removePlayer={this.removePlayer.bind(this)}player={player}/>
                 </Col>
             )
         })

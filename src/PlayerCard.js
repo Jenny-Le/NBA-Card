@@ -3,7 +3,7 @@ import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
 import './index.css';
 
-  class PeopleCard extends Component {
+  class PlayerCard extends Component {
     // constructor(props) {
     //     super(props);
     //   }
@@ -28,4 +28,4 @@ import './index.css';
   }
 
   
-  export default PeopleCard;
+  export default PlayerCard;
