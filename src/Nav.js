@@ -46,7 +46,7 @@ export default class Example extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
-                    Option 1
+                  <NavLink href="/components/">Google</NavLink>
                   </DropdownItem>
                   <DropdownItem>
                     Option 2
